@@ -114,6 +114,10 @@ body {
     background-color: #C93B76;
 }
 
+#progress-bar::-webkit-progress-bar {
+    background-color: #E5E7EB;
+}
+
 .music-controlls {
     display: flex;
     justify-content: center;
