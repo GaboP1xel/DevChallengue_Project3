@@ -103,13 +103,14 @@ body {
     height: 4px;
     overflow: hidden;
     box-shadow: 0 0 1rem #c93b76;
+    appearance: none;
 }
 
 #progress-bar::-moz-progress-bar {
     background-color: #C93B76;
 }
 
-#progress-bar::-webkit-progress-bar {
+#progress-bar::-webkit-progress-value {
     background-color: #C93B76;
 }
 
