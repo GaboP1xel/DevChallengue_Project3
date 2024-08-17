@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="css.css">
+    <title>Music Player</title>
+</head>
+
+<body id="mouse-up-element">
+
+    <main class="main-container">
+        <article class="music-container">
+            <div class="img-container">
+                <img id="music-img" src="dccl--javascript-music-player/cover-2.png">
+            </div>
+            <div class="music-details">
+                <div class="music-details-names">
+                    <h3 id="music-details-h3"></h3>
+                    <span id="music-details-span"></span>
+                </div>
+                <div class="progress-bar-content">
+                    <div class="progress-bar-content-span-container">
+                        <span id="time-played">00:00</span>
+                        <span id="time-total"></span>
+                    </div>
+                    <progress draggable="true" id="progress-bar" value="0" max="100"></progress>
+                </div>
+                <div class="music-controlls">
+                    <img id="backward-music" src="dccl--javascript-music-player/Stop_and_play_fill.svg"></img>
+                    <div class="play-button-container">
+                        <img id="play-button" src="dccl--javascript-music-player/Play_fill.svg">
+                    </div>
+                    <img id="forward-music" src="dccl--javascript-music-player/Stop_and_play_fill_reverse.svg">
+                </div>
+            </div>
+            </div>
+            </div>
+        </article>
+    </main>
+
+    <audio id="audioPlayer" src="dccl--javascript-music-player/forest-lullaby-110624.mp3"></audio>
+    <audio id="audioPlayer2" src="dccl--javascript-music-player/lost-in-city-lights-145038.mp3"></audio>
+
+    <script src="js.js"></script>
+</body>
+
+</html>
