@@ -399,14 +399,12 @@ function forwardSong() {
     playButton.src = "dccl--javascript-music-player/Play_fill.svg";
     currentSongIndex = (currentSongIndex + 1) % songs.length;
     currentSong();
-    console.log(songAccess);
 }
 
 function backwardSong() {
     playButton.src = "dccl--javascript-music-player/Play_fill.svg";
     currentSongIndex = (currentSongIndex - 1 + songs.length) % songs.length;
     currentSong();
-    console.log(songAccess);
 }
 
 nextSong.addEventListener("click", () => {
